@@ -26,6 +26,8 @@ const compat = new FlatCompat({
 });
 
 export default defineConfig([
+  // Temporary: distributed-tracing import is excluded until it adopts these lint rules.
+  { ignores: ['src/features/tracing/**'] },
   {
     extends: fixupConfigRules(
       compat.extends(
