@@ -3,6 +3,7 @@ import { useQuery } from '@tanstack/react-query';
 
 type Features = {
   logging: boolean;
+  tracing: boolean;
   alerting: boolean;
   'alert-management-api': boolean;
   'acm-alerting': boolean;
@@ -18,6 +19,7 @@ type FeaturesResponse = Partial<Features>;
 
 const defaultMonitoringConsolePluginFeatures: Features = {
   logging: false,
+  tracing: false,
   alerting: false,
   'alert-management-api': false,
   'acm-alerting': false,
@@ -31,6 +33,7 @@ const defaultMonitoringConsolePluginFeatures: Features = {
 
 const defaultMonitoringPluginFeatures: Features = {
   logging: false,
+  tracing: false,
   alerting: true,
   'alert-management-api': false,
   'acm-alerting': false,

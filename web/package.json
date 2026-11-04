@@ -228,7 +228,9 @@
       "LogsDevPage": "./features/logging/pages/LogsDevPage",
       "getUserAlertingRules": "./features/logging/utils/get-user-alerting-rules",
       "getPlatformAlertingRules": "./features/logging/utils/get-platform-alerting-rules",
-      "LogsAlertMetrics": "./features/logging/components/alerts/LogsAlertsMetrics"
+      "LogsAlertMetrics": "./features/logging/components/alerts/LogsAlertsMetrics",
+      "TracesPage": "./features/tracing/pages/TracesPage/TracesPage",
+      "TraceDetailPage": "./features/tracing/pages/TraceDetailPage/TraceDetailPage"
     },
     "dependencies": {
       "@console/pluginAPI": "*"
